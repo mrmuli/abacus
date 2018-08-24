@@ -8,5 +8,11 @@ class Compute:
             return
         total  = 1
         for item in self.operands:
-            sum *= item
-        print(sum)
+            total *= item
+        print(total)
+
+    def subtract(self):
+        difference = 0
+        for item in self.operands:
+            difference -= item
+        print(difference)
